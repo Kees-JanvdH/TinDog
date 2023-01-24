@@ -8,17 +8,23 @@ h1 {
     line-height: 1.5; 
 }
 
+h2 {
+    font-family: 'Montserrat-bold';
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
 /******************** ID SELECTORS *****************/
 
 #title {
     background-color: #ff4c69;
-    color: #fff; 
+    color: #fff;
 }
 
 /******************** CLASS SELECTORS *****************/
 
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 
@@ -54,12 +60,21 @@ h1 {
 .title-image {
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+.image-div {
+    position: relative;
 }
 
 /* features */
 
 #features {
     padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    /* z-index: 1; */
 }
 
 .features-header {
@@ -80,4 +95,70 @@ h1 {
 
 .features-par {
     color: #8f8f8f;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+    text-align: center;
+    background-color: #EF8172;
+    color: #fff;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* Press Section */
+
+#press {
+    background-color: #EF8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-image {
+    margin: 20px 20px 50px;
+    width: 15%;
+}
+
+/* Pricing Section */
+
+#pricing {
+    padding: 7% 15%;
+    text-align: center;    
+}
+
+.card {
+    height: 350px;
+}
+
+/* .pricing-header {
+    padding-bottom: 3%;
+} */
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+/* Call to action Section */
+
+#cta {
+    background-color: #ff4c69;
+    padding: 2% 15% 0;
+    text-align: center;
+    color: #fff;
+}
+
+/* Footer Section */
+
+#footer {
+    padding: 1% 15%;
+    text-align: center;    
 }
