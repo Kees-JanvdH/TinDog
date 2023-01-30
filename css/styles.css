@@ -151,9 +151,19 @@ h2 {
 
 #cta {
     background-color: #ff4c69;
-    padding: 2% 15% 0;
+    padding: 4% 15%;
     text-align: center;
     color: #fff;
+}
+
+.cta-heading {
+    font-family: 'Montserrat-black', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.download-button-cta {
+    margin: 5% 1% 0;
 }
 
 /* Footer Section */
@@ -161,4 +171,26 @@ h2 {
 #footer {
     padding: 1% 15%;
     text-align: center;    
+}
+
+.socialmedia-buttons {
+    padding: 0 0.5rem;
+}
+
+@media (max-width: 1100px) {
+
+    #title {
+        text-align: center;
+    }
+    
+.title-image {
+    width: 40%;
+    position: static;
+    transform:rotate(0deg)
+}
+
+/* .image-div {
+    position: static;
+} */
+
 }
